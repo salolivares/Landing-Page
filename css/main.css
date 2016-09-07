@@ -26,13 +26,14 @@ header h1 {
     font-family: 'Lato','Helvetica Neue';
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.15em;
 }
 
 header p {
     margin: 0;
     font-family: 'Lato','Helvetica Neue';
     font-size: 12px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
@@ -50,6 +51,7 @@ ul {
     padding: 0;
     font-family: 'Lato','Helvetica Neue';
     font-size: 15px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
     line-height: 1.5em;
     list-style: none;

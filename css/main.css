@@ -31,6 +31,16 @@ header h1 {
     color: #333;
 }
 
+header h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-family: 'Lato','Helvetica Neue';
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #333;
+}
+
 header p {
     margin: 0;
     font-family: 'Lato','Helvetica Neue';

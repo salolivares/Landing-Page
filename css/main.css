@@ -48,6 +48,27 @@ header strong {
     color: #333;
 }
 
+@media screen and (min-width:500px) {
+    ul {
+        -moz-column-count: 2;
+        -moz-column-gap: 0em;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 0em;
+        column-count: 2;
+        column-gap: 0em;
+
+        line-height: 1.5em;
+
+    }
+}
+
+@media screen and (max-width:499px) {
+    ul {
+        line-height: 2em;
+    }
+}
+
+
 ul {
     margin: 30px 0 0;
     padding: 0;
@@ -55,16 +76,7 @@ ul {
     font-size: 15px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    line-height: 1.5em;
     list-style: none;
-
-    -moz-column-count: 2;
-    -moz-column-gap: 0em;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 0em;
-    column-count: 2;
-    column-gap: 0em;
-
 }
 
 a {

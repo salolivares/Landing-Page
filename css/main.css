@@ -175,10 +175,6 @@ footer{
 }
 
 .m-scene {
-  /** Basic styles for an animated element */
-  /** An element that fades in */
-  /** An element that fades in and slides up */
-  /** An element that fades in and slides from the right */
 }
 .m-scene .scene_element {
   animation-duration: 0.25s;
@@ -194,3 +190,7 @@ footer{
 .m-scene .scene_element--fadeinright {
   animation-name: fadeInRight;
 }
+.m-scene.is-exiting .scene_element {
+  animation-direction: alternate-reverse;
+}
+

@@ -12,6 +12,10 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="shortcut icon" href="favicon.ico">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/jquery.smoothState.min.js"></script>
+        <script src="js/animations.js"></script>
+
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,14 +32,14 @@
         <![endif]-->
     </head>
 
-    <body class="centered">
-        <div class="centered">
-            <header>
+    <body id="centered">
+        <div id="main" class="m-scene">
+            <header class="scene_element scene_element--fadein">
                 <h1>Sal Olivares</h1>
                 <p><span>Programmer</span> <strong>&amp;</strong> <span>CS Student</span> <strong>@</strong> <span>UCSB</span></p>
             </header>
-            <ul>
-                <li><a href="berightback">Portfolio</a></li>
+            <ul class="scene_element scene_element--fadeinup">
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="https://medium.com/@salolivares">Blog</a></li>
                 <li><a href="https://github.com/salolivares/">Github</a></li>
                 <li><a href="https://www.linkedin.com/in/salolivares">Linkedin</a></li>

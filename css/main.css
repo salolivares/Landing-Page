@@ -46,7 +46,7 @@ a:hover {
 }
 
 /** Centered Page Properties **/
-body.centered {
+body#centered {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -55,29 +55,29 @@ body.centered {
     text-align: center;
 }
 
-div.centered {
+#centered div {
     margin: 0 auto 30px;
 }
 
-header#landing h1 {
+#centered header h1 {
     margin: 0 0 0px;
 }
 
-header#landing h2 {
+#centered header h2 {
     margin: 0 0 10px;
 }
 
-header#landing p {
+#centered header p {
     margin: 0;
     text-transform: uppercase;
 }
 
-header#landing span {
+#centered header span {
     color: #686C74;
     white-space: nowrap;
 }
 
-header#landing strong {
+#centered header strong {
     color: #333;
 }
 
@@ -118,15 +118,15 @@ div#wrapper {
     margin: 0 auto;
 }
 
-header#portfolio {
+#portfolio header {
     text-align: center;
 }
 
-header#portfolio h1 {
+#portfolio header h1 {
     margin: 40px 0 0px;
 }
 
-header#portfolio p {
+#portfolio header p {
     text-transform: uppercase;
     margin: 0;
 }
@@ -135,7 +135,7 @@ header#portfolio p {
     line-height: 125%;
 }
 
-footer#portfolio {
+footer{
     text-align: center;
 }
 
@@ -176,25 +176,21 @@ footer#portfolio {
 
 .m-scene {
   /** Basic styles for an animated element */
-  .scene_element {
-    animation-duration: 0.25s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
-
-  }
-
   /** An element that fades in */
-  .scene_element--fadein {
-    animation-name: fadeIn;
-  }
-
   /** An element that fades in and slides up */
-  .scene_element--fadeinup {
-    animation-name: fadeInUp;
-  }
-
   /** An element that fades in and slides from the right */
-  .scene_element--fadeinright {
-    animation-name: fadeInRight;
-  }
+}
+.m-scene .scene_element {
+  animation-duration: 0.25s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.m-scene .scene_element--fadein {
+  animation-name: fadeIn;
+}
+.m-scene .scene_element--fadeinup {
+  animation-name: fadeInUp;
+}
+.m-scene .scene_element--fadeinright {
+  animation-name: fadeInRight;
 }
